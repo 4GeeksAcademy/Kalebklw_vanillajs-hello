@@ -27,6 +27,7 @@ window.onload = function() {
     interactiveButton.addEventListener ("click",
       drawCard
   );
+  drawCard();
 };
 
 
