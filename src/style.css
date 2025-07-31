@@ -1,5 +1,39 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(1, 92, 1);
+    padding-top: 25px;
+}
+
+#card{
+    height: 255px;
+    width: 175px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#topSuit{
+    font-size: 50px;
+    display: flex;
+}
+
+#face{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+#bottomSuit{
+    font-size: 50px;
+    display: flex;
+    transform: rotate(180deg);
+}
+
+#divButton{
+    padding-top: 25px;
+    display: flex;
+}
+
+.interactive{
+    width: auto;
 }
